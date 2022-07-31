@@ -1,0 +1,26 @@
+.resume{
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0 0 20px 3px black;
+  *{
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+  }
+  >.content{
+    border: 2px solid white;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .left{
+    width: 53%;
+    // padding: 30px;
+  }
+  .right{
+    // padding: 30px;
+    width: 47%;
+
+  }
+}

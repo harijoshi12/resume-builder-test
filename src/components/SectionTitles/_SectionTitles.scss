@@ -1,0 +1,46 @@
+.secTitle{
+  border: 2px solid blue;
+  font-size: 18px;
+}
+.inputform{
+  padding: 0;
+  background-color: brown;
+  // border: 2px solid yellow;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  input{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-flex;
+    height: 50px;
+    background-color: rgb(183, 183, 183);
+    outline: none;
+    border: 0;
+    &::placeholder{
+      color: rgb(73, 73, 73);
+    }
+  }
+
+  .icon{
+    padding: 0;
+    // border: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.1);
+    }
+    // width: 40px;
+    svg{
+      border: 0;
+      padding: 0;
+    }
+  }
+}

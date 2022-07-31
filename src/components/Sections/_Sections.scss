@@ -1,0 +1,61 @@
+$lightLeft: rgb(255,255,255);
+$lightRight: rgb(90, 90, 90);
+$lightTextBg: rgb(90, 90, 90);
+$lightTextBg1: rgb(43,52,61);
+$lightTextColor: rgb(49, 51, 42);
+$lightSecTitle: rgb(40, 40, 40);
+$lightResumeTitle: rgb(0, 0, 0);
+$lightName: rgb(205,203,204);
+$titlefontFamily: 'Merriweather', serif;
+$generalfontfamily: 'Roboto', sans-serif;
+
+.technicalSkills{
+  .technicalSkill{
+      display: inline-flex;
+      background-color: $lightTextBg1; 
+      color: white;
+      padding: 5px 13px;  
+      margin: 5px;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: $generalfontfamily;
+      transition: all 0.2s ease;
+      &:hover{
+          background-color: hsl(210, 17%, 10%);
+      }
+     }
+}
+
+.progLangs{
+  // color: white;
+  span{
+    display: inline-flex;
+  }
+  .progLang{
+    background-color: black;
+      padding: 8px 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .title{
+          font-size: 18px;
+          font-weight: 700;
+          color: white;
+          width: 30%;
+          text-transform: uppercase;
+          font-family: $generalfontfamily;
+          margin-left: 2px;
+      }
+      .progressBarOuter{
+          padding: 1px;
+          border: 2px solid rgb(255, 255, 255);
+          width: 70%;
+
+      }
+      .progressBarInner{
+          background-color: white;
+          height: 10px;
+          width: 100%;
+      }
+  }
+}

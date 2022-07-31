@@ -1,0 +1,118 @@
+.resume {
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0 0 20px 3px black;
+}
+.resume * {
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px;
+}
+.resume > .content {
+  border: 2px solid white;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.resume .left {
+  width: 53%;
+}
+.resume .right {
+  width: 47%;
+}
+
+.technicalSkills .technicalSkill {
+  display: inline-flex;
+  background-color: rgb(43, 52, 61);
+  color: white;
+  padding: 5px 13px;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease;
+}
+.technicalSkills .technicalSkill:hover {
+  background-color: hsl(210deg, 17%, 10%);
+}
+
+.progLangs span {
+  display: inline-flex;
+}
+.progLangs .progLang {
+  background-color: black;
+  padding: 8px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progLangs .progLang .title {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  width: 30%;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  margin-left: 2px;
+}
+.progLangs .progLang .progressBarOuter {
+  padding: 1px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 70%;
+}
+.progLangs .progLang .progressBarInner {
+  background-color: white;
+  height: 10px;
+  width: 100%;
+}
+
+.secTitle {
+  border: 2px solid blue;
+  font-size: 18px;
+}
+
+.inputform {
+  padding: 0;
+  background-color: brown;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inputform input {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: inline-flex;
+  height: 50px;
+  background-color: rgb(183, 183, 183);
+  outline: none;
+  border: 0;
+}
+.inputform input::-moz-placeholder {
+  color: rgb(73, 73, 73);
+}
+.inputform input:-ms-input-placeholder {
+  color: rgb(73, 73, 73);
+}
+.inputform input::placeholder {
+  color: rgb(73, 73, 73);
+}
+.inputform .icon {
+  padding: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.inputform .icon:hover {
+  transform: scale(1.1);
+}
+.inputform .icon svg {
+  border: 0;
+  padding: 0;
+}/*# sourceMappingURL=App.module.css.map */

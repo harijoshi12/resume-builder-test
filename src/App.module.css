@@ -115,4 +115,78 @@
 .inputform .icon svg {
   border: 0;
   padding: 0;
+}
+
+.itemInputform {
+  background-color: rgb(45, 45, 45);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.itemInputform input {
+  border: 0;
+  outline: none;
+  display: inline-flex;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.itemInputform .icon {
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  font-size: 30px;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  background-color: gray;
+  color: green;
+  font-weight: bold;
+}
+.itemInputform .icon:hover {
+  transform: scale(1.1);
+}
+.itemInputform .icon svg {
+  padding: 0;
+  border: 0;
+}
+.itemInputform .icon:last-child {
+  color: red;
+}
+
+.addItems {
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.addItems * {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.addItems span {
+  display: inline-flex;
+}
+.addItems .plus {
+  font-size: 35px;
+  width: 50px;
+  color: blue;
+  font-weight: bold;
+  padding: 0;
+}
+.addItems .dashedLine {
+  border-bottom: 5px dashed blue;
+  width: calc(100% - 90px);
+}
+.addItems .dot {
+  font-size: 35px;
+  width: 40px;
+  color: blue;
 }/*# sourceMappingURL=App.module.css.map */

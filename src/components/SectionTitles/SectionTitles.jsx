@@ -2,9 +2,17 @@ import React, { useEffect, useRef, useState } from 'react'
 import { MdOutlineDownloadDone } from "react-icons/md";
 import styles from '../../App.module.css'
 
-export const TechnicalSkillsTitle = ()=>{
+export const TechnicalSkillsTitle = ({setPlusEl})=>{
   const [edit, setEdit] = useState(false)
   const [secTitle, setSecTitle] = useState("Technical Skills")
+
+  useEffect(()=>{
+    if(edit){
+      setPlusEl(true)
+    } else{
+      setPlusEl(false)
+    }
+  },[edit])
 
   const inputRef = useRef(null)
   const handleClickSecTitle= ()=>{

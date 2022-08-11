@@ -51,7 +51,6 @@ export const TechnicalSkill = ({ data, dataArray, setDataArray, addNewItem, setP
   const handleDeleteItemTitle = (e)=>{
     setDataArray(dataArray.filter(d=>d.id != data.id))
     setPlusEl(false)
-    console.log('hari')
   }
  
   useEffect(() => {

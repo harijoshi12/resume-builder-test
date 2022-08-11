@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { TechSec, ProgSec } from '../Sections/Sections'
+import React from 'react'
+import { TechSec, ProgSec, InterestSec } from '../Sections/Sections'
 import styles from '../../App.module.css'
 const Resume = () => { 
   return (
@@ -7,6 +7,7 @@ const Resume = () => {
       <div className={styles.content}>
         <div className={styles.left}>
           <TechSec/>
+          <InterestSec/>
         </div>
         <div className={styles.right}>
           <ProgSec/>
